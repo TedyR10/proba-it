@@ -25,7 +25,7 @@ function Navbar() {
   window.addEventListener("resize", showButton);
 
   return (
-    <>
+    <React.Fragment>
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
@@ -38,7 +38,7 @@ function Navbar() {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                Home
+                Logare
               </Link>
             </li>
             <li className="nav-item">
@@ -47,7 +47,7 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Services
+                Creare Cont
               </Link>
             </li>
             <li className="nav-item">
@@ -56,24 +56,13 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Products
-              </Link>
-            </li>
-
-            <li>
-              <Link
-                to="/sign-up"
-                className="nav-links-mobile"
-                onClick={closeMobileMenu}
-              >
-                Sign Up
+                Contact
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
         </div>
       </nav>
-    </>
+    </React.Fragment>
   );
 }
 

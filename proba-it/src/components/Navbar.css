@@ -1,5 +1,5 @@
 .navbar {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  background: transparent;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -19,7 +19,8 @@
 }
 
 .navbar-logo {
-  color: #fff;
+  background-image: url(./public/logo_bazaroo.png);
+  color: black;
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
