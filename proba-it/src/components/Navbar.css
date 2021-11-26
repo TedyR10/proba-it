@@ -2,8 +2,7 @@
   background: transparent;
   height: 80px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
   font-size: 1.2rem;
   position: sticky;
   top: 0;
@@ -12,22 +11,17 @@
 
 .navbar-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
   height: 80px;
   max-width: 1500px;
 }
 
 .navbar-logo {
-  background-image: url(./public/logo_bazaroo.png);
-  color: black;
-  justify-self: start;
-  margin-left: 20px;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 2rem;
   display: flex;
-  align-items: center;
+  max-width: auto;
+  max-height: 100%;
+  align-self: flex-start;
+  position: absolute;
 }
 
 .fa-typo3 {
@@ -42,7 +36,7 @@
   list-style: none;
   text-align: center;
   width: 60vw;
-  justify-content: end;
+  justify-content: center;
   margin-right: 2rem;
 }
 
@@ -51,7 +45,7 @@
 }
 
 .nav-links {
-  color: #fff;
+  color: black;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -94,7 +88,7 @@
   }
 
   .nav-menu.active {
-    background: #242222;
+    background: #272a45;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;

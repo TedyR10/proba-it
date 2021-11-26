@@ -9,14 +9,14 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <React.Fragment>
+    <div className="divumare">
       <Router>
         <Navbar />
         <Routes>
           <Route path="/" exact component={Home} />
         </Routes>
       </Router>
-    </React.Fragment>
+    </div>
   );
 }
 

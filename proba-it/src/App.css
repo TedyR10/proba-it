@@ -9,6 +9,7 @@
 .services,
 .products,
 .sign-up {
+  background-color: red;
   display: flex;
   height: 90vh;
   align-items: center;
@@ -41,4 +42,7 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+.divumare {
+  background-color: transparent;
 }

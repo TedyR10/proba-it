@@ -1,0 +1,29 @@
+.forma-sus {
+  position: absolute;
+  width: 873px;
+  height: 211px;
+  left: 1638px;
+  top: 202px;
+}
+
+.prima-parte {
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+}
+
+.text-prima-parte {
+  position: absolute;
+  width: 492px;
+  height: 140px;
+  left: 212px;
+  top: 345px;
+
+  font-family: Droid Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 56px;
+
+  color: #000000;
+}
