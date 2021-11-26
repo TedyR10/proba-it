@@ -1,29 +1,50 @@
 .forma-sus {
   position: absolute;
-  width: 873px;
-  height: 211px;
-  left: 1638px;
-  top: 202px;
+  width: 46vw;
+  height: 80px;
+  right: 0px;
+  top: 0px;
+  z-index: -1;
 }
 
 .prima-parte {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   background: transparent;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .text-prima-parte {
-  position: absolute;
-  width: 492px;
-  height: 140px;
-  left: 212px;
-  top: 345px;
+  width: 400px;
+  word-wrap: break-word;
+  align-self: center;
+}
 
+.primul {
   font-family: Droid Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 48px;
+  font-size: 3rem;
   line-height: 56px;
 
   color: #000000;
+}
+
+.doi {
+  width: 350px;
+  font-family: Droid Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 42px;
+}
+
+.imagine-prima-parte {
+  margin-top: 5rem;
+  max-width: 100%;
+  height: auto;
 }

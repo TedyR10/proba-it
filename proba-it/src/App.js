@@ -10,12 +10,14 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="divumare">
-      <Router>
+      {/* <Router>
         <Navbar />
         <Routes>
           <Route path="/" exact component={Home} />
         </Routes>
-      </Router>
+      </Router> */}
+      <Navbar />
+      <Home />
     </div>
   );
 }

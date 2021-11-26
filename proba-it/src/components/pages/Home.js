@@ -1,22 +1,22 @@
 import React from "react";
 import "../../App.css";
-import { shape } from "../../../public/shape.png";
+import shape from "../../assets/shape.png";
 import "./Home.css";
-import { imagineprimaparte } from "../../../public/imagine-prima-parte.png";
+import imagineprimaparte from "../../assets/imagine-prima-parte.png";
 //import Cards from "../Cards";
 //import HeroSection from "../HeroSection";
 //import Footer from "../Footer";
 
 function Home() {
   return (
-    <React.Fragment>
+    <div className="divprincipalhome">
       <div className="forma-sus">
         <img src={shape} alt="shape" />
       </div>
       <div className="prima-parte">
         <div className="text-prima-parte">
-          <p>Învățatul nu a fost niciodată mai simplu!</p>
-          <p>
+          <p className="primul">Învățatul nu a fost niciodată mai simplu!</p>
+          <p className="doi">
             Platforma ideală pentru meditații online, atât pentru profesori, cât
             si pentru studenți.
           </p>
@@ -25,7 +25,7 @@ function Home() {
           <img src={imagineprimaparte} alt="x" />
         </div>
       </div>
-    </React.Fragment>
+    </div>
   );
 }
 
