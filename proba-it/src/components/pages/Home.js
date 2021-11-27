@@ -2,6 +2,8 @@ import React from "react";
 import "../../App.css";
 import shape from "../../assets/shape.png";
 import "./Home.css";
+import dreptfata from "../../assets/dreptfata.png";
+import dreptspate from "../../assets/dreptspate.png";
 import imagineprimaparte from "../../assets/imagine-prima-parte.png";
 //import Cards from "../Cards";
 //import HeroSection from "../HeroSection";
@@ -23,6 +25,15 @@ function Home() {
         </div>
         <div className="imagine-prima-parte">
           <img src={imagineprimaparte} alt="x" />
+        </div>
+      </div>
+      <div className="divdoi">
+        <div className="dreptspate">
+          <img src={dreptspate} alt="" />
+        </div>
+        <div className="dreptfata">
+          <img src={dreptfata} alt="" />
+          <div className="textsus">Cum functioneaza?</div>
         </div>
       </div>
     </div>

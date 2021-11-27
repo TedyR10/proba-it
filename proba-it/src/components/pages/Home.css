@@ -8,8 +8,8 @@
 }
 
 .prima-parte {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   background: transparent;
   display: flex;
   flex-direction: row;
@@ -47,4 +47,33 @@
   margin-top: 5rem;
   max-width: 100%;
   height: auto;
+}
+
+.divdoi {
+  max-width: 100%;
+  height: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.dreptspate {
+  left: 200px;
+  position: absolute;
+  z-index: -1;
+}
+
+.dreptfata {
+  position: relative;
+  width: 100%;
+  top: 40px;
+  right: 70px;
+  text-align: center;
+  z-index: 1;
+}
+
+.textsus {
+  position: absolute;
+  top: 0;
+  left: 50%;
 }
