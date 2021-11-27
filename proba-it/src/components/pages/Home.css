@@ -74,6 +74,18 @@
 
 .textsus {
   position: absolute;
-  top: 0;
-  left: 50%;
+  top: 20%;
+  left: 42%;
+  color: white;
+  font-size: 2.5rem;
+  font-family: Droid Sans;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.texte .caruselul {
+  max-width: 500px;
+  height: auto;
+  left: 500px;
+  padding: 30px;
 }

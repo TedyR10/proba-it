@@ -2,6 +2,9 @@ import React from "react";
 import "../../App.css";
 import shape from "../../assets/shape.png";
 import "./Home.css";
+import styles from "react-responsive-carousel/lib/styles/carousel.min.css";
+import dreptunghi from "../../assets/Rectangle 23.png";
+import { Carousel } from "react-responsive-carousel";
 import dreptfata from "../../assets/dreptfata.png";
 import dreptspate from "../../assets/dreptspate.png";
 import imagineprimaparte from "../../assets/imagine-prima-parte.png";
@@ -33,8 +36,25 @@ function Home() {
         </div>
         <div className="dreptfata">
           <img src={dreptfata} alt="" />
-          <div className="textsus">Cum functioneaza?</div>
+          <div className="textsus">Cum funcționează ?</div>
+          <div className="textejos">
+            <div className="stanga"></div>
+            <div className="dreapta"></div>
+          </div>
         </div>
+      </div>
+      <div className="caruselul">
+        <Carousel>
+          <div className="primaimagcar">
+            <img src={dreptunghi} alt="" />
+          </div>
+          <div className="adouaimagcar">
+            <img src={dreptunghi} alt="" />
+          </div>
+          <div className="atreiaimagcar">
+            <img src={dreptunghi} alt="" />
+          </div>
+        </Carousel>
       </div>
     </div>
   );
