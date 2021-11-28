@@ -2,6 +2,7 @@ import React from "react";
 import "../../App.css";
 import shape from "../../assets/shape.png";
 import "./Home.css";
+//import Modal from "../../../src/Modal.js";
 import styles from "react-responsive-carousel/lib/styles/carousel.min.css";
 import dreptunghi from "../../assets/Rectangle 23.png";
 import { Carousel } from "react-responsive-carousel";

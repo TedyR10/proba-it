@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import "./App.css";
 import Home from "./components/pages/Home";
+//import Modal from "./components/Modal";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 //import Services from "./components/pages/Services";
 //import Products from "./components/pages/Products";
